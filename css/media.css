@@ -1,0 +1,29 @@
+@media (max-width:1440px) {
+    .apple-airpods , .apple-vision{
+        justify-content: center;
+        gap: 70px;
+    }
+    .img-media-none{
+        display: none;
+    }
+    .img-resposiye{
+        display: flex;
+    }
+    .product-right{
+        padding: 1rem 0;
+        justify-content: center;
+        gap: 70px;
+    }
+    .left-playstion{
+        justify-content: center;
+        gap: 70px;
+    }
+    .item-img{
+        margin-bottom: 4rem;
+    }
+}
+@media (max-width:1166px) {
+    .container{
+        max-width: 98%;
+    }
+}

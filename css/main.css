@@ -1,0 +1,502 @@
+:root{
+    --pr-oq:#fff;
+    --pr-qora:#000;
+    --nav-color:#000000;
+    --nav-input-bg:#F5F5F5;
+    --black-bg:#353535;
+    --gray-bg:#EDEDED;
+    --gray-color:#8B8B8B;
+    --love-color:#909090C4;
+}
+.header-navbar{
+    width: 100%;
+    height: 88px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.header-navbar .header-logo{
+    color: var(--nav-color);
+    font-size: 1.3em;
+    font-weight: 600;
+}
+.header-navbar form{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    max-width: 372px;
+    width: 100%;
+    padding: 0 1rem;
+    height: 56px;
+    background-color: var(--nav-input-bg);
+    font-size: 0.8em;
+    color: #989898;
+    gap: 5px;
+}
+.header-navbar form input{
+    width: 90%;
+    font-size: 0.7em;
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    padding: 0 0.5rem;
+}
+.header-navbar nav ul{
+    display: flex;
+    align-items: center;
+    gap: 52px;
+    list-style-type: none;
+}
+.header-navbar nav ul li a{
+    color: var(--gray-color);
+    font-size: 0.9em;
+    font-weight: 500;
+}
+.active-header a{
+    color: var(--nav-color) !important;
+}
+.header-icon{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    color: var(--nav-color);
+    cursor: pointer;
+}
+.header-iphone-14{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bg-iphone{
+    width: 100%;
+    display: flex;
+    height: 632px;
+    align-items: center;
+    justify-content: center;
+    background-color: #211C24;
+}
+.iphone-14-title{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 24px;
+}
+.iphone-14-title p:nth-of-type(1){
+    font-size: 1.25em;
+    font-weight: 600;
+    color:var(--gray-color);
+}
+.iphone-14-title h1{
+    font-size: 4.5em;
+    font-weight: 100;
+    color: var(--pr-oq);
+
+}
+.iphone-14-title h1>span{
+    font-weight: 600;
+}
+.iphone-14-title p:nth-of-type(2){
+    font-size: 0.9em;
+    font-weight: 500;
+    color: var(--love-color);
+    letter-spacing: 5%;
+}
+.iphone-14-title button{
+    font-size: 0.8em;
+    font-weight: 500;
+    color: var(--pr-oq);
+    background-color: transparent;
+    padding: 1rem 3.5rem;
+    border-radius: 6px;
+    border: 1px solid var(--pr-oq);
+}
+.iphone-14-img{
+    max-width: 410px;
+    width: 100%;
+}
+.iphone-14-img img{
+    width: 100%;
+}
+.section-product{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(720px, 1fr));
+}
+.left-apple{
+    display: grid;
+    height: 300px;
+    grid-template-columns: 1fr 1fr;
+}
+.left-playstion{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 3rem;
+    background-color: var(--pr-oq);
+}
+.left-playstion-title h2{
+    font-size: 2.4em;
+    font-weight: 500;
+    color: var(--pr-qora);
+
+}
+.left-playstion-title p{
+    font-size: 0.7em;
+    font-weight: 500;
+    color: var(--gray-color);
+    line-height: 24px;
+}
+.apple-airpods , .apple-vision{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.apple-airpods{
+    padding-right: 3rem;
+    background-color: #EDEDED;
+}
+.apple-airpods-title h2{
+    font-size: 1.5em;
+    font-weight: 200;
+    color: var(--pr-qora);
+    line-height: 50px;
+}
+.apple-airpods-title h2>span{
+    font-weight: 900;
+}
+.apple-airpods-title p{
+    font-size: 0.7em;
+    line-height: 30px;
+    color: var(--love-color);
+}
+.apple-vision{
+    padding-right: 3rem;
+    background-color: #353535;
+}
+.apple-vision-title h2{
+    font-size: 1.5em;
+    font-weight: 300;
+    color: var(--pr-oq);
+    line-height: 50px;
+}
+.apple-vision-title h2>span{
+    font-weight: 700;
+}
+.apple-vision-title p{
+    font-size: 0.7em;
+    line-height: 30px;
+    color: var(--love-color);
+}
+.product-right{
+    background-color: #EDEDED;
+    padding-left: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.product-right-title{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 16px;
+}
+.product-right-title h1{
+    font-size: 3.25em;
+    font-weight: 100;
+    color: var(--pr-qora);
+}
+.product-right-title h1>span{
+    font-weight: 600;
+}
+.product-right-title p{
+    max-width: 360px;
+    width: 100%;
+    color: var(--love-color);
+    font-size: 0.7em;
+    line-height: 24px;
+}
+.product-right-title button{
+    font-size: 0.8em;
+    font-weight: 500;
+    color: var(--pr-qora);
+    background-color: transparent;
+    padding: 1rem 3.5rem;
+    border-radius: 6px;
+    border: 1px solid var(--pr-qora);   
+}
+.section-browse{
+    padding-top: 5rem;
+}
+.browse-navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.browse-navbar p{
+    font-size: 1.25em;
+    font-weight: 500;
+    color: #2E2E2E;
+}
+.browse-navbar b{
+    display: flex;
+    gap: 20px;
+    font-size: 1em;
+    color: var(--black-bg);
+}
+.browse-items{
+    padding:2rem 0px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(170px,1fr));
+    grid-gap: 20px;
+}
+.browse-items-card{
+    height: 128px;
+    background-color: #EDEDED;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    align-items: center;
+    justify-content: center;
+}
+.browse-items-card>i{
+    font-size: 60px;
+    color: #000000;
+}
+.browse-items-card h3{
+    font-size: 0.8em;
+    font-weight: 500;
+}
+.section-shop-nav{
+    padding-top: 3rem;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.section-shop-nav p{
+    padding-bottom: 1rem;
+    color: red;
+    font-size: 0.9em;
+    color: var(--gray-color);
+    font-weight: 500;
+}
+.acvtive-title{
+    color: var(--pr-qora) !important;
+    border-bottom: 3px solid var(--nav-color);
+}
+.section-shop-items{
+    width: 100%;
+    padding-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(268px, 1fr));
+    grid-gap: 16px;
+}
+.shop-items-card{
+    position: relative;
+    /* width: 268px; */
+    /* height: 432px; */
+    background-color: #F6F6F6;
+    padding:4rem 2.5rem 1.5rem 2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+.shop-items-card img{
+    max-width: 160px;
+    width: 100%;
+    height: 160px;
+
+}
+.shop-items-card i{
+    top: 24px;
+    right: 16px;
+    position: absolute;
+    font-size: 1em;
+}
+.active-heart{
+    color: red;
+}
+.shop-items-card p{
+    padding-top: 1rem;
+    font-size: 0.8em;
+    text-align: center;
+    line-height: 24px;
+    font-weight: 500;
+}
+.shop-items-card h3{
+    padding-top: 1rem;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+.card-btn{
+    margin-top: 1.2rem ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.8rem 2rem;
+    background-color: var(--pr-qora);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.card-btn button{
+    background-color: transparent;
+    width: 100px;
+    text-align: center;
+    font-size: 14px;
+    color: var(--pr-oq);
+    border: none;
+    cursor: pointer;
+}
+.section-uzum{
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(360px , 1fr));
+}
+.section-uzum-items{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 16px;
+    background-color: var(--pr-oq);
+    padding-bottom: 2rem;
+}
+.items-2{
+    background-color: #F9F9F9 !important;
+}
+.items-3{
+    background-color: #EAEAEA;
+}
+.items-4{
+    background-color: #2C2C2C;
+}
+.items-4 h3{
+    color: var(--pr-oq)!important;
+}
+.items-4 button{
+    border: 2px solid var(--pr-oq) !important;
+    color: var(--pr-oq);
+}
+.item-img{
+    width: 100%;
+    height: 366px;
+}
+.section-uzum-items img{
+    width: 100%;
+}
+.section-uzum-items h3{
+    font-size: 1.5em;
+    font-weight: 300;
+    color: var(--pr-qora);
+    padding-left: 2rem;
+}
+.section-uzum-items p{
+    padding-left: 2rem;
+    font-size: 0.7em;
+    font-weight: 500;
+    color: var(--love-color);
+    line-height: 24px;
+}
+.section-uzum-items button{
+    margin-left: 2rem;
+    font-size: 0.8em;
+    padding: 1rem 4rem; 
+    font-weight: 600;
+    background-color: transparent;
+    border: 2px solid var(--nav-color);
+    border-radius: 6px;
+}
+.section-discounts{
+    margin-top: 4em;
+    width: 100%;
+}
+.section-discounts h1{
+    font-size: 1.2em;
+    font-weight: 600;
+    color: var(--pr-qora);
+}
+.section-summer{
+    margin-top: 4em;
+    width: 100%;
+    height: 448px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--black-bg);
+}
+.section-summer h1{
+    font-size: 3.5em;
+    font-weight: 100;
+    color: var(--pr-oq);
+}
+.section-summer h1>span{
+    font-weight: 600;
+}
+.section-summer p{
+    font-size: 0.8em;
+    font-weight: 400;
+    color: #787878;
+}
+.section-summer button{
+    margin-top: 2em;
+    font-size: 0.8em;
+    font-weight: 600;
+    padding: 1rem 4rem;
+    background-color: transparent;
+    border: 1px solid var(--pr-oq);
+    color: var(--pr-oq);
+    border-radius: 10px;
+}
+footer{
+    width: 100%;
+    background-color: var(--nav-color);
+    color: var(--pr-oq);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer{
+    padding-top: 5em;
+    width: 100%;
+    height: auto;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(340px , 1fr));
+    grid-gap: 50px;
+}
+.footer-item-1 h3{
+    font-size: 1.5em;
+    font-weight: 600;
+    color: var(--pr-oq);
+}
+.footer-item-1 p{
+    padding-top: 1.2rem;
+    font-size: 0.7em;
+    font-weight: 500;
+    color: var(--pr-oq);
+
+}
+.footer>ul{
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+}
+.footer-item-2>ul{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    list-style-type: none;
+}
+.footer-item-2>ul>li{
+    font-size: 0.7em;
+    font-weight: 400;
+    line-height: 32px;
+}
+.avtive-footer-ul-li{
+    font-size: 1em !important;
+    font-weight: 600 !important;
+}
